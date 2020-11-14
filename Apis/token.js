@@ -42,7 +42,7 @@ router.post("/", function(req, res, next) {
           if(user.email == req.body.email){
             utilisateurTrouvez=true;
             res.status(200).json({
-                token: jwt.encode(req.body.email, process.env.myJWTKey)
+                token: jwt.encode(req.body.email, "ndsvn2g8dnsb9hsg")
               });
           }
       });
