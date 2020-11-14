@@ -158,7 +158,7 @@ router.post("/", function(req, res, next) {
     let decoded;
     //Verification de la validité du token
     try {
-      decoded = jwt.decode(jwttoken, process.env.myJWTKey);
+      decoded = jwt.decode(jwttoken, "ndsvn2g8dnsb9hsg");
     } catch (e) {
       //Si token invalide
       res.status(401).json({
