@@ -15,4 +15,4 @@ $ npm install
 ```bash
 $ npm start
 ```
-  voir la documentation de l'API en utilisant Swagger à l'adresse Url public suivante: https://infinite-fjord-05545.herokuapp.com .
+  Vous pouvez consulter la documentation de l'API Swagger à l'url publique suivante: https://tictactrip-projet.herokuapp.com/api-docs/#/ .
